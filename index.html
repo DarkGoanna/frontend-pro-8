@@ -15,7 +15,7 @@
             }
             return values;
         }
-        
+
     /* 2 exercise */
         function getKeys (obj) {
             var keys = [];
@@ -23,6 +23,15 @@
                 keys.push(key);
             }
             return keys;
+        }
+
+    /* 3 exercise */
+        function getEntries (obj) {
+            var entries = [];
+            for (var key in obj) {
+                entries.push([key, obj[key]]);
+            }
+            return entries;
         }
     </script>
 </body>
